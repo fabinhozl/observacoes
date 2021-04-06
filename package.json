@@ -4,19 +4,20 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js --exec node"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fabinhozl/observacoes.git"
+    "url": "git+https://github.com/elcioabrahao/observacoes.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/fabinhozl/observacoes/issues"
+    "url": "https://github.com/elcioabrahao/observacoes/issues"
   },
-  "homepage": "https://github.com/fabinhozl/observacoes#readme",
+  "homepage": "https://github.com/elcioabrahao/observacoes#readme",
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
